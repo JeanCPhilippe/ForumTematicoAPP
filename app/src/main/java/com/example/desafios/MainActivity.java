@@ -129,10 +129,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     public void Expressão (String string, boolean apagar)
     {
-        if (result.getText().equals(""))
-        {
-            exp.setText(" ");
-        }
         if (apagar)
         {
             result.setText(" ");
@@ -141,7 +137,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         {
             exp.append(result.getText());
             exp.append(string);
-            result.setText(" ");
+            result.setText("");
         }
     }
     @Override

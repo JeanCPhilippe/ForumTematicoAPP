@@ -16,7 +16,8 @@
         android:hint="20"
         android:textColor="@color/black"
         android:textAlignment="textEnd"
-        android:textSize="50dp"
+        android:textSize="50sp"
+        android:ellipsize="start"
         android:singleLine="true"
     />
     <TextView
@@ -27,8 +28,9 @@
         android:layout_below="@id/txtExp"
         android:textColor="@android:color/darker_gray"
         android:hint="10"
+        android:ellipsize="start"
         android:textAlignment="textEnd"
-        android:textSize="50dp"
+        android:textSize="40sp"
         android:singleLine="true"
     />
 
