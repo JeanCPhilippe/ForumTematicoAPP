@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_dark"
+    android:background="@android:color/white"
     tools:context=".MainActivity"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/txtExp"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
         android:background="@color/white"
         android:hint="20"
         android:textColor="@color/black"
@@ -23,7 +23,7 @@
     <TextView
         android:id="@+id/txtResult"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
         android:background="@color/white"
         android:layout_below="@id/txtExp"
         android:textColor="@android:color/darker_gray"
@@ -54,6 +54,7 @@
         <Button
             style="@style/Operadores"
             android:text="/"
+            android:layout_weight="1"
             android:id="@+id/div"
             />
     </LinearLayout>
@@ -116,7 +117,6 @@
             style="@style/Operadores"
             android:text="-"
             android:layout_weight="1"
-            android:background="@color/black"
             />
     </LinearLayout>
     <LinearLayout
